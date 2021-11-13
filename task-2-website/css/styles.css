@@ -37,10 +37,14 @@ body {
   
   .topnav span a,
   .topnav span a:visited,
-  .topnav span a:hover,
   .topnav span a:active {
     color: inherit;
     text-decoration: none;
+  }
+
+  .topnav span a:hover{
+    font-size: 40px;
+    transition: all 0.3s ease 0s;
   }
   
   .topnav ul {
@@ -58,11 +62,20 @@ body {
     padding: 0 10px;
   }
   
+  .topnav ul li a{
+    transition: all 0.3s ease 0s;
+  }
+  
   .topnav ul li a,
   .topnav ul li a:visited,
   .topnav ul li a:active {
     color: inherit;
     text-decoration: none;
+  }
+
+  .topnav ul li a:hover {
+    color: #f9da31;
+    
   }
 
   
